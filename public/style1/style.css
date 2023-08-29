@@ -1,0 +1,210 @@
+
+/* HEADER */
+header{
+    background-color: rgb(167, 163, 163);
+    color: red;
+    justify-content:baseline;
+  
+   
+}
+
+hgroup{
+    display: inline-block;
+    color: red;
+   
+    
+ 
+}
+
+
+hgroup h1, h2{
+    padding-left: 400px;
+}
+
+figure{
+    display: inline-block;
+
+}
+
+
+
+/* TITLES */
+h3{
+    border-bottom: solid rgba(150, 145, 145, 0.438);
+  
+}
+
+h3::before{
+   content: ".";
+   color: red;
+   padding-right: 10px;
+   font-size: 100px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around   ;
+    width: 50%;
+}
+
+/* SKILL BAR */
+
+.skill{
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    margin-bottom: 4px;
+    line-height: 2;
+    
+}
+.skills.skills-primary::before{
+    content: "Main";
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 0;
+    
+
+}
+
+.skill span{
+    margin-left: -8px;
+}
+.skills.skills-secondary::before{
+    content: "other";
+    font-size: 20px;
+    display: inline-block;
+    margin: 0;
+
+}
+.skill[data-skill="5"] span{
+    background-color: red;
+    width: 50%;
+    display: inline-block;
+}
+
+.skill[data-skill="3"] span{
+    background-color: red;
+    width: 30%;
+    display: inline-block;
+}
+
+
+.skill[data-skill="1"] span{
+    background-color: red;
+    width: 15%;
+    display: inline-block;
+    
+}
+
+.skill[data-skill="9"] span{
+    background-color: red;
+    width: 90%;
+    display: inline-block;
+}
+
+
+.skill[data-skill="7"] span{
+    background-color: red;
+    width: 70%;
+    display: inline-block;
+}
+
+
+
+
+#contact{
+    top:10px;
+    display: flex;
+    right: 0px;
+    position: absolute;
+    margin: 0;
+    width: 50%;
+    background-color: red;
+    height: 120px;
+   
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.contact{
+    align-items: baseline;
+    margin: 0;
+    display: flex;
+
+}
+
+.contact-type{
+    background-color: red;
+    color: white;
+    width: 100px;
+    
+
+}
+
+#contact h3 {
+    display: none;
+}
+
+a {
+    color : red;
+    text-decoration: none;
+  
+
+}
+
+.contact-value{
+    background-color: black;
+    width: 815px;
+    padding: 2.8px;
+
+    
+}
+
+
+/* Main */
+
+
+.content{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#about p{
+    width: 500px;
+
+
+}
+
+
+.experience-type, .experience-institution{
+    color: red;
+}
+
+.experience-institution{
+    font-weight: 9;
+}
+
+.experience-type::after{
+    content: ' @';
+}
+
+
+
+.experience-location, .day, .month, .year{
+    color: rgb(161, 154, 154);
+}
+
+
+
+.experience-date-separator{
+    color: red;
+}
+
+.experience-location::before{
+    content: 'In';
+}

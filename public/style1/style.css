@@ -214,3 +214,31 @@ a {
 
 /* Responsiveness */
 
+@media all and (max-width:767px){
+    
+    header{
+        background-color: gray;
+        padding: 30px;
+    }
+
+    hgroup{
+        color: red;
+    }
+    hgroup h1{
+        margin-top: 0;
+    }
+    .content{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+#contact{
+    margin-top: 10px;
+    position: static;
+}
+.contact-value{
+    padding: 3px;
+    margin: 0;
+}}
